@@ -202,9 +202,9 @@ let myStack = new Array(stackSize);  //  => o
 - 수행 결과 : [링크]
 
 ### 노현진
-- `2번`
-- `3번`
-- 수행 결과 : [링크]
+- `2번` ✅
+- `3번` ✅
+- 수행 결과 : https://mica-walk-152.notion.site/2-908cebf9da5b4569a396a484c013aeb5
   
 ### 심은서
 - `4번`
