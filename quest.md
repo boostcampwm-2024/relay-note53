@@ -207,7 +207,7 @@ let myStack = new Array(stackSize);  //  => o
 - 수행 결과 : https://mica-walk-152.notion.site/2-908cebf9da5b4569a396a484c013aeb5
   
 ### 심은서
-- `4번`
-- `5번`
-- 수행 결과 : [링크]
+- `4번` ✅
+- `5번` ✅
+- 수행 결과 : https://simeunseo.notion.site/1-3623fc3eec6942898191b1ebe645b8dd?pvs=4
 
