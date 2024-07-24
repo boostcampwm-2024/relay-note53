@@ -187,8 +187,8 @@ let myStack = new Array(stackSize);  //  => o
 - 수행 결과 : https://meteor-turner-e80.notion.site/1-cf2cf0e000574f4da77f28daf86f2154?pvs=4
 
 ### 유미라
-- `2번` ✅
-- `6번` ✅
+- `2번` ✅✅
+- `6번` ✅✅
 - 수행 결과 : https://quickest-account-376.notion.site/1-afa66e9b6a0d4247896f93fbe2acc104
 
 ### 윤지성
