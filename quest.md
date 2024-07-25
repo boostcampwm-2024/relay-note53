@@ -197,8 +197,8 @@ let myStack = new Array(stackSize);  //  => o
 - 수행 결과 : [[링크]](https://ablaze-run-978.notion.site/1-927067e62acf4cf8b37a7fdb756c0abe?pvs=4)
 
 ### 박태준
-- `1번`
-- `3번`
+- `1번` ❌[✅](https://www.notion.so/Day07-JUnit-97592449cc83436db0d10e90f157d4fb?#d090d96a53244c80b56b3e1bab8be900)[✅](https://www.notion.so/Day-8-1a529f4fdaf84c29b103bafad6670642#6e594bcb8dba4fd88c425ec0a73e0fcb)[✅](https://www.notion.so/Day09-Pub-Sub-Singleton-7825efb4a6a9459e9132b250ac983ab6?pvs=4#376ed50365554407bdc905dddb1303c5)
+- `3번` [✅](https://gist.github.com/ruh0n/e896e2ed6002822bfdd3d73fa4092024#file-piecedata-kt)❌[✅](https://gist.github.com/ruh0n/695bda8a0153e3ffca2578d506864083#file-constants-kt)❌
 - 수행 결과 : [링크]
 
 ### 노현진
