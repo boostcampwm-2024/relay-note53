@@ -182,8 +182,8 @@ let myStack = new Array(stackSize);  //  => o
 > 
 > ex. `1번` ✅✅❌✅
 ### 장승훈
-- `4번`❌
-- `5번`✅
+- `4번`❌✅✅❌
+- `5번`✅✅❌❌
 - 수행 결과 : https://meteor-turner-e80.notion.site/1-cf2cf0e000574f4da77f28daf86f2154?pvs=4
 
 ### 유미라
