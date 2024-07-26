@@ -192,9 +192,9 @@ let myStack = new Array(stackSize);  //  => o
 - 수행 결과 : https://quickest-account-376.notion.site/1-afa66e9b6a0d4247896f93fbe2acc104
 
 ### 윤지성
-- `2번`✅✅
-- `3번`✅❌
-- 수행 결과 : [[링크]](https://ablaze-run-978.notion.site/1-927067e62acf4cf8b37a7fdb756c0abe?pvs=4)
+- `2번`✅✅✅✅
+- `3번`✅❌✅✅
+- 수행 결과 : https://ablaze-run-978.notion.site/1-927067e62acf4cf8b37a7fdb756c0abe?pvs=4
 
 ### 박태준
 - `1번` ❌[✅](https://www.notion.so/Day07-JUnit-97592449cc83436db0d10e90f157d4fb?#d090d96a53244c80b56b3e1bab8be900)[✅](https://www.notion.so/Day-8-1a529f4fdaf84c29b103bafad6670642#6e594bcb8dba4fd88c425ec0a73e0fcb)[✅](https://www.notion.so/Day09-Pub-Sub-Singleton-7825efb4a6a9459e9132b250ac983ab6?pvs=4#376ed50365554407bdc905dddb1303c5)
