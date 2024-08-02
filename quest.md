@@ -299,6 +299,28 @@ let myStack = new Array(stackSize); //  => o
 
 -   `3번` ✅✅✅✅
 -   수행 결과 : 월/화의 경우 채크하는 주기를 변수로 관리하였고, 수/목 미션의 경우 파일 경로에 대한 것을 변수로 관리하였다
+```javascript
+#time = [3, 7, 15]; // 1, 2, 3번 작업에 걸리는 시간
+```
+
+```javascript
+export const makePATH = (path) => {
+    const DIR = `./${path}`;
+    const MIT_DIR = `${DIR}/.mit`;
+    const OBJECTS_DIR = `${MIT_DIR}/objects`;
+    const INDEX_DIR = `${MIT_DIR}/index`;
+    const INDEX_FILE_PATH = `${INDEX_DIR}/index.txt`;
+    const COMMIT_HISTORY_FILE_PATH = `${INDEX_DIR}/commits.txt`;
+    return {
+        MIT_DIR,
+        OBJECTS_DIR,
+        INDEX_DIR,
+        INDEX_FILE_PATH,
+        COMMIT_HISTORY_FILE_PATH,
+    };
+};
+```
+
 
 ### 정유진
 
