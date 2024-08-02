@@ -290,6 +290,24 @@ let myStack = new Array(stackSize); //  => o
 -   [day11](https://gist.github.com/dooohun/8ea028f858368b8a0244f5e4140440c5)
 -   [day13](https://gist.github.com/dooohun/1dde2c1b254ce57175b2892f157c299e)
 -   특히 리팩토링 과정과 개선하기 과정을 통해 더 의미있는 변수명과 함수명을 지으려고 노력하였습니다!
+(예시)
+```jsx
+// 수정 전
+function getLastTree(dir, data) {
+  const path = `./${dir}/.mit/objects/${data.slice(0, 8)}/${data.slice(8)}`;
+  if (!fs.existsSync(path)) return "";
+  const commitObj = fs.readFileSync(path);
+  let file = zlib.inflateSync(commitObj).toString("utf-8");
+  return JSON.parse(file).split("\n")[0].split(" ")[1];
+}
+
+// 수정 후
+function getPreviousTreeHash(dir) {
+  if (!fs.existsSync(commitsPath(dir))) return '';
+  const data = unzipByPath(commitsPath(dir)).split('\n')[0];
+  return findPreviousTreeObject(dir, data);
+}
+```
 
 ### 조성훈
 
