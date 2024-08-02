@@ -302,3 +302,8 @@ let myStack = new Array(stackSize); //  => o
 ### 조범희
 
 -   `3번`
+
+### 임해인
+
+-   `3번` ✅❌❌✅✅
+-   수행 결과 : https://fifth-calf-816.notion.site/2-a7bd670eb7b64e4086d7a37ad8ec4e27?pvs=4
