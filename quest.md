@@ -284,7 +284,12 @@ let myStack = new Array(stackSize); //  => o
 
 ### 김도훈
 
--   `6번`
+-   `6번` ✅✅✅✅
+-   수행 결과: 명확한 함수명과 변수명 짓기를 신경쓰며 코딩하였습니다.
+-   **수행 경험 공유하기**
+-   [day11](https://gist.github.com/dooohun/8ea028f858368b8a0244f5e4140440c5)
+-   [day13](https://gist.github.com/dooohun/1dde2c1b254ce57175b2892f157c299e)
+-   특히 리팩토링 과정과 개선하기 과정을 통해 더 의미있는 변수명과 함수명을 지으려고 노력하였습니다!
 
 ### 조성훈
 
