@@ -390,9 +390,46 @@ export const makePATH = (path) => {
 
 ### 유성민
 
--   `4번` ❌❌❌❌
+-   `3번` ✅❌❌❌
 -   수행 결과: 
 -   **수행 경험 공유하기**
+-   [월] 모든 상태 코드와 메시지 상수로 생성
+```javascript
+const status = {
+  NO_RECORD: Object.freeze({
+    code: 100,
+    message: "No Record Found",
+  }),
+  SUCCESS: Object.freeze({
+    code: 200,
+    message: "OK",
+  }),
+  NO_TABLE: Object.freeze({
+    code: 300,
+    message: "No Table Found",
+  }),
+  NOT_MATCH_COLUMN_CNT: Object.freeze({
+    code: 400,
+    message: "Not Match Columne Cnt",
+  }),
+  NO_COLUMN: Object.freeze({
+    code: 401,
+    message: "No Column Found",
+  }),
+  NOT_ALLOWED_NULL: Object.freeze({
+    code: 402,
+    message: "Not Allowed Null",
+  }),
+  ALREADY_EXISTS_TABLE: Object.freeze({
+    code: 403,
+    message: "Already Exists Table",
+  }),
+  EXTRA: Object.freeze({
+    code: 500,
+    message: "Extra Error",
+  }),
+};
+```
 
 ### 김현우
 
